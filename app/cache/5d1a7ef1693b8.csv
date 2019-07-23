@@ -1,0 +1,5 @@
+﻿UserId;LastName;FirstName;Email;UserName;AuthSource;Status;OfficialCode;PhoneNumber;RegistrationDate;skype;linkedin_url
+2;Anonymous;Joe;anonymous@localhost;anon;platform;6;anonymous;;"2019-07-02 20:49:31";;
+1;Chura;Yordy;yordyjc.chura@gmail.com;admin;platform;1;ADMIN;"(000) 001 02 03";"2019-07-02 20:49:30";;
+4;paz;Henrry;churayordy@gmail.com;henrry;platform;5;HENRRY;9876565445;"2019-07-01 21:33:25";;
+3;walter;calizaya;churayordy@gmail.com;walter;platform;5;123;978766545;"2019-07-02 21:01:09";;
