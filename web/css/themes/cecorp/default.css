@@ -5,9 +5,14 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  * Based on Bootstrap v3
 */
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500|Rubik:400,500,700&display=swap");
 
 body {
   margin: 0;
+  font-family: 'Roboto',sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Rubik',sans-serif;
 }
 
 a {
@@ -25,9 +30,13 @@ a:focus {
 
 .navbar-nav > li{
   margin-bottom: 0;
+  color: #0055b8;
+  font-weight: 500;
+  font-size: 1.7rem;
 }
 .navbar-collapse{
   overflow: hidden !important;
+  text-align: center;
 }
 .navbar-default {
   background: #337AB7;
@@ -44,7 +53,7 @@ a:focus {
   background-color:#2C5B8E;
 }
 .navbar-default .navbar-nav > li > a{
-  color: #ffffff;
+  
 }
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
@@ -61,12 +70,15 @@ a:focus {
 }
 .navbar-default .navbar-nav > .open > .dropdown-menu{
   padding: 3px 4px;
+
 }
 .navbar-default .navbar-nav > .open > .dropdown-menu > li > a{
   padding: 6px 9px;
 }
 .nav > li > a:hover, .nav > li > a:focus{
    background-color: transparent;
+   color: #00aabe;
+  text-decoration: none;
 }
 .navbar-form .form-control{
   height: 25px;
@@ -116,4 +128,43 @@ a:focus {
 }
 .bgfooter a{
   color: #ffffff;
+}
+
+/*********************************
+ HEADER SCALA
+ *********************************/
+ .header{
+    /*border-bottom: 1px solid #0055b8;*/
+    -webkit-box-shadow:0px 3px 5px #ddd;
+    -moz-box-shadow:0px 3px 5px #ddd;
+    box-shadow:0px 3px 5px #ddd;
+    z-index:9999;
+}
+#cecorpmenu{
+    text-align: center;
+}
+.menu-principal_item{
+    display: block;
+    padding:.5rem 1rem;
+    color: #0055b8;
+    font-weight: 500;
+}
+.menu-principal_item:hover{
+    color: #00aabe;
+    text-decoration: none;
+}
+.active .menu-principal_item{
+    color: #00aabe;
+}
+
+.btn-outline-principal{
+    color:#fff;
+    background-color:#0055b8;
+    border-color:#0055b8;
+    font-weight: 500;
+}
+.btn-outline-principal:hover{
+    color:#0055b8;
+    border-color:#0055b8;
+    background-color: #fff;
 }
